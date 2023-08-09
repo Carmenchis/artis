@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "HindGuntur-R";
+    src: url("../fonts/HindGuntur-Regular.ttf");
+}
+@font-face {
+    font-family: "HindGuntur-B";
+    src: url("../fonts/HindGuntur-Bold.ttf");
+}
+
+
+.imagen_fondo {
+    word-spacing: normal;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #272932;
+    background-image: url("../img/UX-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    .imagen_fondo2 {
+    word-spacing: normal;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #272932;
+    background-image: url("../img/UX-image3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagen_fondo3 {
+    word-spacing: normal;
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #272932;
+    background-image: url("../img/UX-image2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADER - Nav Bar */
+
+.navbar_fija {
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: "HindGuntur-R";
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: #760138;
+    border-top: 6px solid #FCB11A;
+    
+    padding-inline: 20px;
+    padding-top: 50px;
+
+    /*border: 2px solid #FCB11A;
+    border-radius: 8px;*/
+
+    text-align: right; 
+}
+
+.navbar {
+    display: inline-block;
+    justify-content: center;
+    /*align-content: center;*/
+
+    margin-inline: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+/*.navbar.active a {
+}*/ /*CONSULTAR COMO HACER Q EL TEXTO PASE A NEGRITA ESTANDO ACTIVO*/
+
+.navbar a:hover {
+    text-decoration: overline 2px solid #FCB11A;
+}
+
+/* MAIN - Presentacion */
+
+.presentacion {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.soy {
+    text-align: left;
+    font-size: 1rem;
+    font-family: "HindGuntur-R";
+    padding-left: 10px;
+    /*padding-top: 30px;*/
+}
+
+.carmen {
+    background-position: center;
+    color: #272932;
+    background-color: #FCB11A;
+    border: .5px solid #760138;
+    border-radius: 8px;
+
+    padding-inline: 16px;
+    padding-block: 2px;
+
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+.name {
+    font-size: 3rem;
+    font-family: "HindGuntur-B";
+    font-style: normal;
+    /* text-align: center;*/
+    /* background-position: center; */
+    color: white;
+    border: 1px solid #FCB11A;
+    border-radius: 8px;
+
+    padding-inline: 16px;
+
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+.saludo {
+    font-size: 1rem;
+    font-family: "HindGuntur-R";
+    text-align: justify;
+    /*background-color: #272932;*/
+    color: white;
+    background-position: left;
+    background-color: #2729325b;
+    padding-inline: 16px;
+    padding-block: 8px;
+
+    border-radius: 16px;
+
+    width: 400px;
+    height: 150px;
+    /*margin-bottom: 4px;*/
+}
+
+.coder {
+    background-color: black;
+    font-family: "HindGuntur-B";
+    color: white;
+    font-style: italic;
+    padding-inline: 4px;
+}
+
+/* comentario */
+
+main {
+    padding: 20px;
+    margin-inline: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #272932;
+    padding: 24px;
+    background-position: bottom;
+    width: 100%
+}
+
+.copy {
+    text-align: center;
+    color: white;
+}
+
+/* -------SERVICIOS------*/
+
+.titulo_servicio {
+    font-size: 1rem;
+    font-family: "HindGuntur-R";
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.titulo_servicio1 {
+    font-size: 3rem;
+    font-family: "HindGuntur-B";
+    font-style: normal;
+    text-align: center;
+    background-color: #272932b6;
+    background-position: center;
+    color: #FCB11A;
+    border: 1px solid #FCB11A;
+    border-radius: 8px;
+
+    padding-inline: 16px;
+
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 8px;
+}
+
+.card_servicio {
+    background-color: #272932a9;
+    width: 30%;
+    padding: 20px;
+    border-radius: 16px;
+
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-bottom: 20px;
+}
+
+.img_servicio {
+    width: 40%;
+}
+
+.titulo_card_servicio {
+    font-size: 24px;
+    font-family: "HindGuntur-B";
+    color: #FCB11A;
+}
+
+.texto_card_servicio {
+    font-size: 16px;
+    font-family: "HindGuntur-R";
+    color: white;
+}
+
+.card_nuevo {
+    background-color: #FCB11A;
+    color: #272932;
+    border: 1px solid #FCB11A;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.card_servicio_boton a{
+    text-decoration: none;
+    color: #FCB11A;
+}
+
+.card_servicio_boton,
+.card_jr {
+    background-color: #272932;
+    color: #FCB11A;
+    border: 1px solid #FCB11A;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.img_servicio,
+.titulo_card_servicio,
+.texto_card_servicio,
+.card_servicio_boton {
+    margin-bottom: 10px;
+}
+
+/*.nuevo {
+    position: static;
+    top: 0;
+    font-family: "HindGuntur-B";
+    text-align: center;
+    justify-content: center;
+}
+
+.bar_nuevo_servicio {
+    background-color: #FCB11A;
+    color: #760138;
+    font-size: 18px;
+
+    padding-bottom: 10px;
+}
+
+.texto_nuevo {
+    height: 20px;
+    width: 30px;
+}*/
+
+/* ----Mis Trabajos----- */
+
+.inicio,
+.servicio, 
+.mistrabajos,
+.sobremi,
+.charlemos {
+    display: flex;
+    text-justify: center;
+}
+
+.trabajos {
+    text-align: left;
+    font-size: 3rem;
+    font-family: "HindGuntur-B";
+    padding-left: 10px;
+    background-color: #272932;
+    color: #FCB11A;
+    margin-top: 0;
+}
+
+.grid {
+    background-color: #760138;
+    min-height: 100vh;
+    color: white;
+    font-size-adjust: 2rem;
+    font-family: "HindGuntur-B";
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+        "inicio inicio servicio sobremi"
+        "inicio inicio mistrabajos charlemos";
+
+    gap: .5rem;
+}
+
+.grid a {
+    text-decoration: none;
+    color: white;
+}
+
+.inicio {
+    background-color: #FCB11A;
+    grid-area: inicio;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio {
+    background-color: #FCB11A;
+    grid-area: servicio;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mistrabajos {
+    background-color: #FCB11A;
+    grid-area: mistrabajos;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobremi {
+    background-color: #1D8F6D;
+    grid-area: sobremi;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charlemos {
+    background-color: #1D8F6D;
+    grid-area: charlemos;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- CHARLEMOS ----- */
+
+.map {
+    background-color: #272932a9;
+    width: 650px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 16px;
+    /* display: inline-block;*/   
+    margin-inline: 30px;
+    margin-bottom: 30px;
+    position: fixed;
+
+}
+
+
+.mapa_link {
+    padding: 10px;
+}
+
+.texto_map {
+    font-size: 16px;
+    font-family: "HindGuntur-B";
+    color: #FCB11A;
+    text-align: center;
+}
+
+/*.card_charlemos {
+    background-position: right;
+}*/
+
+.formu {
+    background-color: #272932a9;
+    width: 46%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 16px;
+
+    display: inline-block;
+    margin-inline: 1%;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    font-family: "HindGuntur-B";
+    color: #FCB11A;
+    text-align: center;
+}
+
+.formul {
+    background-color: #272932a9;
+    width: 46%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 16px;
+     
+    display: inline-block;
+    margin-inline: 1%;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+.formu,
+.formul {
+    margin-top: 30px;
+}
